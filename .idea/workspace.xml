@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="62ce439c-d931-421d-b5db-26621c6f9faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/cherry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/cupcake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/cherry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/cupcake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -20,13 +52,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1ZfXPTxUcOOe3dLCcebjazuqfKx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -34,7 +75,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,24 +89,52 @@
       <updated>1585231097185</updated>
       <workItem from="1585231098558" duration="10660000" />
       <workItem from="1587815583794" duration="315000" />
+      <workItem from="1587921205866" duration="2957000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-1221" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585317245160">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1221" y="170" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1585317245160" />
-    <state x="-1451" y="-1" key="SettingsEditor" timestamp="1587815905058">
+    <state x="-1451" y="-1" key="SettingsEditor" timestamp="1587921314676">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
+    <state x="-1451" y="-1" key="SettingsEditor/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1587921314676" />
     <state x="-1451" y="-1" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1587815905058" />
     <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup" timestamp="1585565403176">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1585565403176" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/index.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
