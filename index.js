@@ -21,6 +21,10 @@ app.use(passport.session());
 
 authRoutes(app);
 
+app.all('*', function(req, res) {
+    res.redirect(`http://localhost:3000${req.originalUrl}`);
+});
+
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(keys.mongoURI, {

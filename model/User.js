@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
-    userId: String,
+  googleId: String,
 });
 
 // Create a new collection users

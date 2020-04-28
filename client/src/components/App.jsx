@@ -14,18 +14,19 @@ function App() {
     dispatch(fetchUser());
   }, []);
 
-  if (user) {
-    return (
-      <BrowserRouter>
-        <Layout>
-          <Route path="/home" component={Dashboard} exact />
-        </Layout>
-      </BrowserRouter>
-    );
-  }
+  // if (user) {
+  //   return (
+  //     <BrowserRouter>
+  //       <Layout>
+  //         <Route path="/home" component={Dashboard} exact />
+  //       </Layout>
+  //     </BrowserRouter>
+  //   );
+  // }
 
   return (
     <BrowserRouter>
+      <Route path="/home" component={Dashboard} />
       <Route path="/login" component={LoginPage} exact />
     </BrowserRouter>
   );

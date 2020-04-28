@@ -20,27 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ce439c-d931-421d-b5db-26621c6f9faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/authActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/LoginPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/middlewares/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/authReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/requireLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/axios.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/authActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +81,7 @@
       <workItem from="1588009424176" duration="686000" />
       <workItem from="1588010120223" duration="321000" />
       <workItem from="1588020826751" duration="1415000" />
-      <workItem from="1588023050734" duration="4526000" />
+      <workItem from="1588023050734" duration="9414000" />
     </task>
     <servers />
   </component>
@@ -126,15 +113,15 @@
     </state>
     <state x="-1451" y="-1" key="SettingsEditor/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1587921314676" />
     <state x="-1451" y="-1" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1587815905058" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1588025939611">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1588068681510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1588025939611" />
-    <state x="500" y="248" width="570" height="486" key="find.popup" timestamp="1588025019549">
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1588068681510" />
+    <state x="500" y="248" width="570" height="538" key="find.popup" timestamp="1588068640868">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1254" y="117" width="588" height="486" key="find.popup/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1588009493487" />
-    <state x="500" y="248" width="570" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588025019549" />
+    <state x="500" y="248" width="570" height="538" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588068640868" />
     <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1588025977461">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
