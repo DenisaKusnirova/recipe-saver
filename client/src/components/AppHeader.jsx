@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
+import { useSelector } from "react-redux";
 import AppBar from "@material-ui/core/AppBar";
 import Container from "@material-ui/core/Container";
 import Button from "@material-ui/core/Button";
@@ -10,7 +11,7 @@ import classnames from "classnames";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: "white",
+    backgroundColor: theme.colors.lightblue,
     flexGrow: 1,
     "& header": {
       padding: "24px 64px",
@@ -37,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   link: {
-    color: theme.palette.secondary.main,
+    color: "rgba(0, 0, 0, 0.87)",
     textDecoration: "none",
     fontWeight: "bold",
     borderBottom: "2px solid transparent",
@@ -59,6 +60,7 @@ const useStyles = makeStyles((theme) => ({
 
 function AppHeader() {
   const classes = useStyles();
+  const user = useSelector((state) => state.auth.currentUser);
 
   const [currentPathName, setCurrentPathName] = React.useState(
     window.location.pathname
@@ -104,8 +106,13 @@ function AppHeader() {
             <Button size="small" color="primary">
               + Add a new recipe
             </Button>
-            <Button size="small" variant="contained" color="primary">
-              Login with Google
+            <Button
+              size="small"
+              variant="contained"
+              color="primary"
+              href="/api/logout"
+            >
+              Logout
             </Button>
           </div>
         </Container>

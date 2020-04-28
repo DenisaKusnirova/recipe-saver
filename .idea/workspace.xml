@@ -19,7 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ce439c-d931-421d-b5db-26621c6f9faf" name="Default Changelist" comment="" />
+    <list default="true" id="62ce439c-d931-421d-b5db-26621c6f9faf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/actions/authActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/middlewares/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/requireLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +74,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +88,13 @@
       <updated>1585231097185</updated>
       <workItem from="1585231098558" duration="10660000" />
       <workItem from="1587815583794" duration="315000" />
-      <workItem from="1587921205866" duration="3225000" />
+      <workItem from="1587921205866" duration="8703000" />
+      <workItem from="1588004710097" duration="1346000" />
+      <workItem from="1588007543551" duration="1660000" />
+      <workItem from="1588009424176" duration="686000" />
+      <workItem from="1588010120223" duration="321000" />
+      <workItem from="1588020826751" duration="1415000" />
+      <workItem from="1588023050734" duration="4526000" />
     </task>
     <servers />
   </component>
@@ -82,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -96,18 +126,31 @@
     </state>
     <state x="-1451" y="-1" key="SettingsEditor/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1587921314676" />
     <state x="-1451" y="-1" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1587815905058" />
-    <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup" timestamp="1585565403176">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1588025939611">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1588025939611" />
+    <state x="500" y="248" width="570" height="486" key="find.popup" timestamp="1588025019549">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="-1254" y="117" width="588" height="486" key="find.popup/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1588009493487" />
+    <state x="500" y="248" width="570" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588025019549" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1588025977461">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1585565403176" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588025977461" />
+    <state x="450" y="319" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588022385918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="319" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1588022385918" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/client/src/index.js</url>
-          <line>9</line>
-          <properties lambdaOrdinal="-1" />
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

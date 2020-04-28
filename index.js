@@ -22,6 +22,7 @@ app.use(passport.session());
 authRoutes(app);
 
 const PORT = process.env.PORT || 5000;
+
 mongoose.connect(keys.mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
