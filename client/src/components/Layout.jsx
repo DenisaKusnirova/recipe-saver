@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   "@global": {
     body: {
-      backgroundColor: "white",
       margin: 0,
       overflow: "scroll",
     },

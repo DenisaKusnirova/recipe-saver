@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Layout from "./Layout";
-import LoginPage from "./LoginPage";
+import LoginPage from "../pages/Login/LoginPage";
 import { useSelector, useDispatch } from "react-redux";
-import Dashboard from "./Dashboard";
+import Dashboard from "../pages/Dashboard/Dashboard";
 import { fetchUser } from "../actions/authActions";
+import NewRecipe from "../pages/NewRecipe/NewRecipe";
+import Layout from "./Layout";
 
 function App() {
   const dispatch = useDispatch();
@@ -14,20 +15,13 @@ function App() {
     dispatch(fetchUser());
   }, []);
 
-  // if (user) {
-  //   return (
-  //     <BrowserRouter>
-  //       <Layout>
-  //         <Route path="/home" component={Dashboard} exact />
-  //       </Layout>
-  //     </BrowserRouter>
-  //   );
-  // }
-
   return (
     <BrowserRouter>
-      <Route path="/home" component={Dashboard} />
-      <Route path="/login" component={LoginPage} exact />
+      <Route path="/login" component={LoginPage} exact />{" "}
+      <Layout>
+        <Route path="/home" component={Dashboard} exact />
+        <Route path="/recipes/new" component={NewRecipe} exact />
+      </Layout>
     </BrowserRouter>
   );
 }

@@ -11,7 +11,6 @@ import classnames from "classnames";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.colors.lightblue,
     flexGrow: 1,
     "& header": {
       padding: "24px 64px",
@@ -76,9 +75,9 @@ function AppHeader() {
             </Icon>
             <Link
               to="/"
-              onClick={() => setCurrentPathName("/")}
+              onClick={() => setCurrentPathName("/home")}
               className={classnames(classes.link, {
-                [classes.activeLink]: currentPathName === "/",
+                [classes.activeLink]: currentPathName === "/home",
               })}
             >
               Home
@@ -103,7 +102,7 @@ function AppHeader() {
             </Link>
           </div>
           <div>
-            <Button size="small" color="primary">
+            <Button size="small" color="primary" href="/recipes/new">
               + Add a new recipe
             </Button>
             <Button

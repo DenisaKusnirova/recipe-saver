@@ -20,14 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ce439c-d931-421d-b5db-26621c6f9faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/recipeActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/icon-chef.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/icon-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/recipeCategories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/recipeFormFields.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/texts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/RecipeFormSelect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/RecipeFormTextField.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/NewRecipe/NewRecipe.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/recipesReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Recipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/recipeRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/authActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AppHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Dashboard/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Login/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/requireLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/requireLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +81,12 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/pages/Login" />
+      <recent name="$PROJECT_DIR$/client/src/pages/Dashboard" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,7 +105,8 @@
       <workItem from="1588009424176" duration="686000" />
       <workItem from="1588010120223" duration="321000" />
       <workItem from="1588020826751" duration="1415000" />
-      <workItem from="1588023050734" duration="9414000" />
+      <workItem from="1588023050734" duration="10208000" />
+      <workItem from="1589710736668" duration="26596000" />
     </task>
     <servers />
   </component>
@@ -108,6 +133,10 @@
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1221" y="170" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1585317245160" />
+    <state x="-1820" y="-80" width="1720" height="880" key="DiffContextDialog" timestamp="1589809331858">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1820" y="-80" width="1720" height="880" key="DiffContextDialog/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1589809331858" />
     <state x="-1451" y="-1" key="SettingsEditor" timestamp="1587921314676">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
@@ -117,10 +146,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1588068681510" />
-    <state x="500" y="248" width="570" height="538" key="find.popup" timestamp="1588068640868">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1253" y="118" width="760" height="646" key="find.popup" timestamp="1589727360161">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1254" y="117" width="588" height="486" key="find.popup/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1588009493487" />
+    <state x="-1253" y="118" width="760" height="646" key="find.popup/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1589727360161" />
     <state x="500" y="248" width="570" height="538" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588068640868" />
     <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1588025977461">
       <screen x="0" y="0" width="1440" height="900" />
